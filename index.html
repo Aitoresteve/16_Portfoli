@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" type="text/css">
+
+    <title>Portfoli</title>
+      <style type="text/css">
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          body{
+              background: #000000;
+          }
+          nav{
+            z-index: 2;
+            display: flex;
+            top: 0;
+            left: 36.7%;
+            right: 0;
+            height: 0;
+            width: 20%;
+            font-size: 0.75em;
+            font-weight: 650;
+            position: fixed;
+            padding: 2.5em 4em;
+            /*background: black;*/
+        }
+          h1{
+              color: white;
+          }
+          h2{
+              margin: 20px;
+              color: white;
+              background:;
+              border-bottom: 3px solid white;
+          }
+          h3{
+              text-align: center;
+              color: white;
+              font-size: 5rem;
+          }
+          img{
+              width: 100%;
+              height: auto;
+          }
+          p{
+              padding: 20px;
+              margin: 10px;
+              color: grey;
+          }
+          a{
+              padding: 50px;
+              margin: 0;
+              color: white;
+              font-size: 2rem;
+              text-align: center;
+          }
+          .disenador{
+            position: absolute;
+            width: 100%;
+            z-index: 1;
+        }
+          .frase{
+              color: white;
+              font-style: italic;
+              padding: 350px 1100px 20px 80px;              
+          }
+          .autor{
+              color: white;
+              padding: 0 1100px 20px 80px;
+          }
+          .a{
+              padding: 0;
+              margin: 0;
+          }
+          .contact{
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+          }
+          .elena{
+              /*width: 33%;*/
+              filter: grayscale();
+              grid-column: span 1;
+              padding: 10px;
+          }
+          .elena:hover{
+              filter: none;
+          }
+          .colors{
+              /*width: 33%;*/
+              filter: grayscale();
+              grid-column: span 1;
+              padding: 10px;
+          }
+          .colors:hover{
+              filter: none;
+          }
+          .flash{
+              /*width: 33%;*/
+              filter: grayscale();
+              grid-column: span 1;
+              padding: 10px;
+          }
+          .flash:hover{
+              filter: none;
+          }
+          section{
+              margin: 0;
+              padding: 0;
+          }
+          .work{
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+          }
+          .t1, .t2, .t3{
+              padding: 20px;
+          }
+          .yo{
+              padding: 20px 29%;
+          }
+      </style>
+  </head>
+  <body>
+      <header>
+      <nav class="navegador">
+        <div class="menu">
+           <a href="index.html"><img src="img/Mesa de trabajo 4.png" alt=""></a>
+        </div>
+    </nav>
+          </header>
+      <main>
+          <div class="disenador">
+          <p class="frase">"El diseño gráfico debe seducir, educar y quizás lo más importante, provocar una respuesta emocional."</p>
+          <p class="autor">April Greiman.</p>
+        </div>
+      <img src="img/01.jpg" alt="">
+      <div>
+          <h2 class="about">About</h2>
+          <h3>¡Hola!</h3>
+          <p class="yo">Mi nombe es Aitor Esteve y soy estudiante de Gráfica Publucitaria en la EASD de Alcoy. 
+              Me defino como un diseñador muy polivalete y polifacético, el cual es capaz de trabajar con distintas técnicas, métodos y ámbitos. Como diseñadoy mi trabajo es comunicar, mediante la imágen podemos conseguir esto y por eso me gusta probar y experimentar, para trabajar la imágen y descubrir diferentes formas de expresión y transmisión. Desde mi punto de vista el poder de la imágen és incalculable, pude hacer que una persona piense de una forma u otra, puede hacer que se sienta atraida por algo o en el caso contrario, sentir repulsión y muchos otros sentimientos o emociones, por eso creo que es tan importante trabajar la imágen, tanto nosotros como personas, como las propias empresas o negocios para vender o realizar cualquiera de sus actividades y como todo en este mundo para poder transmitir aquello que se desea correctamente, por eso considero que los diseñadores somos tan importantes, porque somos capaces de analizar y descubrir como hacer esto realidad y que medios se deben usar para este fin.</p>
+      </div>
+          <h2 class="about">Work</h2>
+      <div class="work">
+          <section class="t1">
+              <a class="a" href="index2.html"><img class="elena" src="img/Papeleria_Elena.jpg" alt=""></a>
+              <h2>Elena Tudela</h2>
+              <p>Proyecto de rediseño de la imagen gráfica de la academia de Ballet Elena Tudela.</p>
+      </section>
+          <section class="t2"> 
+              <a class="a" href="index3.html"><img class="colors" src="img/Univers_Colors.jpg" alt=""></a>
+              <h2>Univers de Colors</h2>
+              <p>Proyecto de diseño de una infografía sobre el color "Colors, un univers per desxifrar".</p>
+      </section>
+          <section class="t3">
+              <a class="a" href="index4.html"><img class="flash" src="img/Revista00.jpg" alt=""></a>
+              <h2>Flash Magazine</h2>
+              <p>Proyecto de diseño de una revista "Flash Magazine".</p>
+      </section>
+      </div>
+          </main>
+      <footer>
+          <h2 class="about">Contact</h2>
+          <div class="contact">
+              <a href="https://www.instagram.com/xestevex/">Instagram</a>
+              <a href="mailto:xestevexdesign@gmail.com">e-Mail</a>
+              <a href="https://www.behance.net/aitoresteve1">Behance</a>
+            </div>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
